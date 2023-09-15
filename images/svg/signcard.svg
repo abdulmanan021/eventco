@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="209px" height="458px" viewBox="0 0 209 458" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com -->
+    <title>BCD1D451-759B-4C8A-AD0F-F5F2A98BF806</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="8.93483099%" y1="52.1242035%" x2="92.7516823%" y2="45.1777068%" id="linearGradient-1">
+            <stop stop-color="#E636F1" offset="0%"></stop>
+            <stop stop-color="#55CDFB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="135.280383%" y1="80.252364%" x2="0%" y2="87.530452%" id="linearGradient-2">
+            <stop stop-color="#F7F7FE" offset="0%"></stop>
+            <stop stop-color="#F5C0D9" offset="34.3680233%"></stop>
+            <stop stop-color="#F8A1AE" offset="76.8774689%"></stop>
+            <stop stop-color="#FFAA99" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Help/demo/affiliate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Affiliate-LP" transform="translate(0.000000, -228.000000)">
+            <g id="affiliate-background" transform="translate(-342.000000, 0.000000)">
+                <g id="shapes-1" transform="translate(0.000000, 184.000000)">
+                    <g id="Group-21" opacity="0.049999997" transform="translate(465.000000, 309.000000) rotate(-30.000000) translate(-465.000000, -309.000000) translate(395.000000, 255.000000)" fill="#222222">
+                        <circle id="Oval" cx="6" cy="6" r="6"></circle>
+                        <circle id="Oval-Copy-9" cx="38" cy="6" r="6"></circle>
+                        <circle id="Oval-Copy-10" cx="70" cy="6" r="6"></circle>
+                        <circle id="Oval-Copy-11" cx="102" cy="6" r="6"></circle>
+                        <circle id="Oval-Copy-12" cx="134" cy="6" r="6"></circle>
+                        <circle id="Oval-Copy-12" cx="134" cy="38" r="6"></circle>
+                        <circle id="Oval-Copy-11" cx="102" cy="38" r="6"></circle>
+                        <circle id="Oval-Copy-10" cx="70" cy="38" r="6"></circle>
+                        <circle id="Oval-Copy-9" cx="38" cy="38" r="6"></circle>
+                        <circle id="Oval" cx="6" cy="38" r="6"></circle>
+                        <circle id="Oval" cx="6" cy="70" r="6"></circle>
+                        <circle id="Oval-Copy-9" cx="38" cy="70" r="6"></circle>
+                        <circle id="Oval-Copy-10" cx="70" cy="70" r="6"></circle>
+                        <circle id="Oval-Copy-11" cx="102" cy="70" r="6"></circle>
+                        <circle id="Oval-Copy-12" cx="134" cy="70" r="6"></circle>
+                        <circle id="Oval-Copy-12" cx="134" cy="102" r="6"></circle>
+                        <circle id="Oval-Copy-11" cx="102" cy="102" r="6"></circle>
+                        <circle id="Oval-Copy-10" cx="70" cy="102" r="6"></circle>
+                        <circle id="Oval-Copy-9" cx="38" cy="102" r="6"></circle>
+                        <circle id="Oval" cx="6" cy="102" r="6"></circle>
+                    </g>
+                    <path d="M255.53271,91.5184157 C416.53271,179.518416 525.099085,383.933943 375,484 C255,564 140.844237,477.839472 32.5327103,225.518416 C-6.80062305,123.518416 -10.4672897,64.8517491 21.5327103,49.5184157 C69.5327103,26.5184157 102.334847,7.78293749 255.53271,91.5184157 Z" id="Path-74" fill="url(#linearGradient-1)"></path>
+                    <rect id="Rectangle" fill="url(#linearGradient-2)" transform="translate(317.000000, 191.243557) rotate(-60.000000) translate(-317.000000, -191.243557) " x="177" y="51.2435565" width="280" height="280" rx="49.2668622"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

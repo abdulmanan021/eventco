@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- set the encoding of your site -->
+    <meta charset="utf-8">
+    <!-- set the viewport width and initial-scale on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- set the HandheldFriendly -->
+    <meta name="HandheldFriendly" content="True">
+    <!-- set the description -->
+    <meta name="description" content="Eventco">
+    <!-- set the Keyword -->
+    <meta name="keywords" content="">
+    <meta name="author" content="abdulmanan">
+    <!-- set the page title -->
+    <title>EventCo - Profile</title>
+    <!-- include google roboto font cdn link -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i"
+        rel="stylesheet">
+    <!-- Font Google Material Icons CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- include the site bootstrap stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- include the site responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/am_frontcss.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/sweetalert2.min.css">
+    <link rel="icon" href="images/logo-icon.png" />
+    <!-- calendar css -->
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+</head>
+
+<!-- Side nav -->
+
+<body>
+    <!-- main container of all the page elements -->
+    <!-- header of the page -->
+
+    <header>
+        <!-- header holder -->
+        <div class="main-nav">
+            <div class="container-fluid">
+
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+
+                        <a class="navbar-brand" href="index.html">
+                            <img class="logo-dark" src="images/logo/logo-dark.png" alt="EventCo">
+                        </a>
+                        <div class="nav-item my-auto me-3 top_search_bar">
+                            <div class="input-group rounded-pill border border-muted border-1 overflow-hidden am_topsearchbar_bg">
+                                <input type="search" class="form-control border-0 am_topsearchbar_bg" placeholder="Search Event">
+                                <span class="input-group-text border-0 am_topsearchbar_bg"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+
+                        <button class="navbar-toggler bg-theme" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="search-event.html">Events</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="marketplace.html">Marketplace</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item dropdown my-auto">
+                                    <a class="nav-link dropdown-toggle" href="#" id="all-pages" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        All Pages
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start all_pages_dropdown"
+                                        aria-labelledby="all-pages">
+                                        <li><a class="dropdown-item" href="search-event.html">Search Event</a></li>
+                                        <li><a class="dropdown-item" href="event_detail.html">Event Detail</a></li>
+                                        <li><a class="dropdown-item" href="marketplace.html">Marketplace</a></li>
+                                        <li><a class="dropdown-item" href="services.html">Services</a></li>
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="blog-detail.html">Blog Detail</a></li>
+                                        <li><a class="dropdown-item" href="speakers.html">Speakers</a></li>
+                                        <li><a class="dropdown-item" href="sponsors.html">Sponsors</a></li>
+                                        <li><a class="dropdown-item" href="schedule.html">Schedule</a></li>
+                                        <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                                        <li><a class="dropdown-item" href="terms-and-conditions.html">terms &
+                                                conditions</a></li>
+                                        <li><a class="dropdown-item" href="privacy-policy.html">privacy Policy</a></li>
+                                        <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                                        <li><a class="dropdown-item" href="error-404.html">404 page</a></li>
+                                        <li><a class="dropdown-item" href="maintenance-503.html">503 Page</a></li>
+                                        <li><a class="dropdown-item" href="signup.html">Signup</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="am_user_loggedin">
+                                            <img src="images/speakers/speaker-1.png" class="img-fluid am_imgfit" alt="">
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start am_profile_dropdown"
+                                        aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item active" href="profile.html">Profile</a></li>
+                                        <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- contain main informative part of the site -->
+    <main class="px-0 am_lighttheme">
+        <div class="container overflow-hidden">
+            <div class="card p-3 border-0 am_general_border my-4">
+                <header class="seperator-head mb-0 pb-0">
+                    <h2>My Profile</h2>
+                </header>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class="card am_general_border border-0 p-3">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-12">
+                                <div class="am_user_profile_image">
+                                    <img src="images/speakers/speaker-1.png" class="img-fluid am_imgfit am_general_border" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-lg-9 col-md-7 col-sm-12 ms-xl-auto">
+                                <h4 class="fw-bold">Natisha Decoux</h4>
+                                <h6 class="text-theme mt-2">Admin</h6>
+                                <p class="my-2 am_paratext5 text-muted">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting
+                                    industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic.
+                                </p>
+                                <div class="d-flex mt-3">
+                                    <i class="fas fa-phone-alt fs-5 text-theme my-auto"></i>
+                                    <a href="tel:+92518897268" class="fs-6 text-muted ms-3">+(92) 51 889 7268</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <i class="far fa-envelope-open fs-5 text-theme my-auto"></i>
+                                    <a href="mailto:info@example.com" class="fs-6 text-muted ms-3">info@example.com</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <i class="fas fa-map-marker-alt fs-5 text-theme my-auto"></i>
+                                    <h6 class="text-muted ms-3 my-auto">Address: Office 2, 2nd Floor, Al-Madina Arcade,
+                                        Bahria Town Phase 7, Rawalpindi</h6>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <i class="fas fa-globe fs-5 text-theme my-auto"></i>
+                                    <a href="https://example.com/" target="_blank"
+                                        class="fs-6 text-muted ms-3">www.example.com</a>
+                                </div>
+                                <div class="d-flex mt-3">
+                                    <i class="fas fa-share-alt fs-5 text-theme my-auto"></i>
+                                    <div class="d-flex">
+                                        <a href="https://facebook.com/" target="_blank" class="fs-6 text-muted ms-3"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="https://youtube.com/" target="_blank" class="fs-6 text-muted ms-3"><i
+                                                class="fab fa-youtube"></i></a>
+                                        <a href="https://linkedin.com/" target="_blank" class="fs-6 text-muted ms-3"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://twitter.com/" target="_blank" class="fs-6 text-muted ms-3"><i
+                                                class="fab fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card p-3 border-0 am_general_border my-4">
+                        <header class="seperator-head mb-0 pb-0">
+                            <h2>Upcoming Events</h2>
+                        </header>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators am_my_carousel_indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="am_my_carousel_indicators active" aria-current="true"
+                                aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                class="am_my_carousel_indicators" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                class="am_my_carousel_indicators" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="am_my_carousel-item carousel-item active">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_physical">Physical</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$100.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Tribi">
+                                                        <img src="images/blog/img-cnt.jpg" class="img-fluid am_imgfit"
+                                                            alt="Tribi">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/blog-details.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Freelance Recruitment</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Conference</a>
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3 ms-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">A freelance event planner works to prepare and plan everything needed for a successful event on a contractual basis. In this career, you work closely with the client to understand the needs and wants of the event and how to fit them into their budget.</p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_virtual">virtual</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$120.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Apple">
+                                                        <img src="images/blog/org-2.jpg" class="img-fluid am_imgfit"
+                                                            alt="Apple">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/apple.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">iPhone 14 Launch</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_hybrid">hybrid</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$150.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Shelby">
+                                                        <img src="images/blog/org-3.jpg" class="img-fluid am_imgfit"
+                                                            alt="Shelby">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/shelby-event.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Unwrapping Mustang</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Event</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    When it comes to the latest GT500, driver enjoyment is secondary. It's both the fastest production Mustang ever built and the most powerful street legal Ford product ever. By all accounts, this Shelby pushes the current generation Mustang and Ford's modular V8 to their absolute limits.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am_my_carousel-item carousel-item">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_physical">Physical</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$100.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Tribi">
+                                                        <img src="images/blog/img-cnt.jpg" class="img-fluid am_imgfit"
+                                                            alt="Tribi">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/events/top-events-3.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Freelance Recruitment</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Event</a>
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3 ms-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">A freelance event planner works to prepare and plan everything needed for a successful event on a contractual basis. In this career, you work closely with the client to understand the needs and wants of the event and how to fit them into their budget.</p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_virtual">virtual</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$120.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Apple">
+                                                        <img src="images/blog/org-2.jpg" class="img-fluid am_imgfit"
+                                                            alt="Apple">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/iphone14.jpeg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">iPhone 14 Launch</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Conference</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_hybrid">hybrid</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$150.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Shelby">
+                                                        <img src="images/blog/org-3.jpg" class="img-fluid am_imgfit"
+                                                            alt="Shelby">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/mustang.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Unwrapping Mustang</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Meeting</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    When it comes to the latest GT500, driver enjoyment is secondary. It's both the fastest production Mustang ever built and the most powerful street legal Ford product ever. By all accounts, this Shelby pushes the current generation Mustang and Ford's modular V8 to their absolute limits.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am_my_carousel-item carousel-item">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                        <div class="d-flex">
+                                                            <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                                <i class="far fa-heart text-white"></i>
+                                                            </button>
+                                                            <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                                <i class="fas fa-share text-white"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                <div class="event_type_ribbon ribbon_physical">Physical</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$100.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                        <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="EFMA">
+                                                            <img src="images/blog/org-1.png" class="img-fluid am_imgfit"
+                                                                alt="EFMA">
+                                                        </div>
+                                                    </div>
+                                                <a href="event_detail.html"><img src="images/blog/high-tech.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Testing Event</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Event</a>
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3 ms-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    In a nutshell, Test Events are sporting competitions held prior to an Olympic Games. They often take place a year in advance of the Olympic competition to give enough time for the hosts to check and sort any issues with the playing conditions and infrastructure readiness.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                        <div class="d-flex">
+                                                            <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                                <i class="far fa-heart text-white"></i>
+                                                            </button>
+                                                            <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                                <i class="fas fa-share text-white"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                <div class="event_type_ribbon ribbon_virtual">virtual</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$120.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Earth Love">
+                                                        <img src="images/blog/org-2.png" class="img-fluid am_imgfit"
+                                                            alt="Earth Love">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/events/physical_event.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Live Conference</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Conference</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    Live conferencing refers to the live streaming of interactive audio and video presentations, lectures, meetings, and seminars to the global audience with the help of a camera and conferencing equipment.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                        <div class="d-flex">
+                                                            <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                                <i class="far fa-heart text-white"></i>
+                                                            </button>
+                                                            <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                                <i class="fas fa-share text-white"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                <div class="event_type_ribbon ribbon_hybrid">hybrid</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$150.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="P-Embassy">
+                                                        <img src="images/blog/org-4.jpg" class="img-fluid am_imgfit"
+                                                            alt="P-Embassy">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/default-3.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Seminar</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    Less formal than a class lecture, a seminar allows for small groups to meet and discuss academic topics or required reading, as well as set goals for research and continuing investigation.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card p-3 border-0 am_general_border my-4">
+                        <header class="seperator-head mb-0 pb-0">
+                            <h2>Past Events</h2>
+                        </header>
+                    </div>
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators am_my_carousel_indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                                class="am_my_carousel_indicators active" aria-current="true"
+                                aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                                class="am_my_carousel_indicators" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                                class="am_my_carousel_indicators" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="am_my_carousel-item carousel-item active">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_physical">Physical</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$100.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Tribi">
+                                                        <img src="images/blog/img-cnt.jpg" class="img-fluid am_imgfit"
+                                                            alt="Tribi">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/blog-details.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Freelance Recruitment</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Conference</a>
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3 ms-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">A freelance event planner works to prepare and plan everything needed for a successful event on a contractual basis. In this career, you work closely with the client to understand the needs and wants of the event and how to fit them into their budget.</p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_virtual">virtual</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$120.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Apple">
+                                                        <img src="images/blog/org-2.jpg" class="img-fluid am_imgfit"
+                                                            alt="Apple">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/apple.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">iPhone 14 Launch</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_hybrid">hybrid</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$150.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Shelby">
+                                                        <img src="images/blog/org-3.jpg" class="img-fluid am_imgfit"
+                                                            alt="Shelby">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/shelby-event.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Unwrapping Mustang</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Event</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    When it comes to the latest GT500, driver enjoyment is secondary. It's both the fastest production Mustang ever built and the most powerful street legal Ford product ever. By all accounts, this Shelby pushes the current generation Mustang and Ford's modular V8 to their absolute limits.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am_my_carousel-item carousel-item">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_physical">Physical</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$100.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Tribi">
+                                                        <img src="images/blog/img-cnt.jpg" class="img-fluid am_imgfit"
+                                                            alt="Tribi">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/events/top-events-3.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Freelance Recruitment</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Event</a>
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3 ms-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">A freelance event planner works to prepare and plan everything needed for a successful event on a contractual basis. In this career, you work closely with the client to understand the needs and wants of the event and how to fit them into their budget.</p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_virtual">virtual</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$120.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Apple">
+                                                        <img src="images/blog/org-2.jpg" class="img-fluid am_imgfit"
+                                                            alt="Apple">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/iphone14.jpeg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">iPhone 14 Launch</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Conference</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                    <div class="d-flex">
+                                                        <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                            <i class="far fa-heart text-white"></i>
+                                                        </button>
+                                                        <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                            <i class="fas fa-share text-white"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="event_type_ribbon ribbon_hybrid">hybrid</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$150.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Shelby">
+                                                        <img src="images/blog/org-3.jpg" class="img-fluid am_imgfit"
+                                                            alt="Shelby">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/mustang.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Unwrapping Mustang</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Meeting</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    When it comes to the latest GT500, driver enjoyment is secondary. It's both the fastest production Mustang ever built and the most powerful street legal Ford product ever. By all accounts, this Shelby pushes the current generation Mustang and Ford's modular V8 to their absolute limits.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am_my_carousel-item carousel-item">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                        <div class="d-flex">
+                                                            <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                                <i class="far fa-heart text-white"></i>
+                                                            </button>
+                                                            <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                                <i class="fas fa-share text-white"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                <div class="event_type_ribbon ribbon_physical">Physical</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$100.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                        <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="EFMA">
+                                                            <img src="images/blog/org-1.png" class="img-fluid am_imgfit"
+                                                                alt="EFMA">
+                                                        </div>
+                                                    </div>
+                                                <a href="event_detail.html"><img src="images/blog/high-tech.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Testing Event</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Event</a>
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3 ms-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    In a nutshell, Test Events are sporting competitions held prior to an Olympic Games. They often take place a year in advance of the Olympic competition to give enough time for the hosts to check and sort any issues with the playing conditions and infrastructure readiness.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                        <div class="d-flex">
+                                                            <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                                <i class="far fa-heart text-white"></i>
+                                                            </button>
+                                                            <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                                <i class="fas fa-share text-white"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                <div class="event_type_ribbon ribbon_virtual">virtual</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$120.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="Earth Love">
+                                                        <img src="images/blog/org-2.png" class="img-fluid am_imgfit"
+                                                            alt="Earth Love">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/events/physical_event.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Live Conference</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Conference</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    Live conferencing refers to the live streaming of interactive audio and video presentations, lectures, meetings, and seminars to the global audience with the help of a camera and conferencing equipment.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-2">
+                                        <!-- news post -->
+                                        <article class="news-post am_new_hov_effect mb-0 h-100">
+                
+                                            <div class="aligncenter">
+                                                <div class="am_event_actions">
+                                                        <div class="d-flex">
+                                                            <button class="btn btn-theme" data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties"data-bs-toggle="tooltip" data-bs-placement="right" title="Add to favourties">
+                                                                <i class="far fa-heart text-white"></i>
+                                                            </button>
+                                                            <button class="btn btn-theme ms-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Share Event">
+                                                                <i class="fas fa-share text-white"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                <div class="event_type_ribbon ribbon_hybrid">hybrid</div>
+                                                <div class="am_event_pricee">
+                                                    <div class="badge text-capitalize">$150.00</div>
+                                                </div>
+                                                <div class="am_new_orgposition">
+                                                    <div class="am_org_position" data-bs-toggle="tooltip" data-bs-placement="right" title="P-Embassy">
+                                                        <img src="images/blog/org-4.jpg" class="img-fluid am_imgfit"
+                                                            alt="P-Embassy">
+                                                    </div>
+                                                </div>
+                                                <a href="event_detail.html"><img src="images/blog/default-3.jpg"
+                                                        alt="image not found"></a>
+                                            </div>
+                
+                                            <div style="min-height:130px; margin-top: 40px;">
+                                                <h5><a class="am_paratext2 fw-bold" href="event_detail.html">Seminar</a></h5>
+                                                <div class="d-flex">
+                                                    <a href="javascript:void(0);" class="btn am_light_theme text-muted px-2 mb-3">Seminar</a>
+                                                </div>
+                                                <p class="am_paratext2">
+                                                    Less formal than a class lecture, a seminar allows for small groups to meet and discuss academic topics or required reading, as well as set goals for research and continuing investigation.
+                                                </p>
+                                            </div>
+                                            <div class="desc display-flex">
+                                                <div class="event-date my-2">
+                                                    <p><i class="far fa-calendar-alt me-2 text-theme"></i>10 Mar
+                                                        2022</p>
+                                                    <p><i class="far fa-clock me-2 text-theme"></i>10:00 AM</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer-area bg-dark text-gray position-relative">
+
+        <!-- aside -->
+        <aside class="aside container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 ">
+                    <div class="logo"><a href="javascript:void(0);"><img src="images/logo/logo.png" alt="EventCo"></a>
+                    </div>
+                    <p>EventCo is the world’s leading all-in-one virtual event platform. Offer your participants
+                        a virtual venue that allows them to move freely across multiple sessions,
+                        networking lounge, and exhibition booths to have meaningful interactions.</p>
+                    <a href="javascript:void(0);" class="btn btn-default text-uppercase">Host an event for free</a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3  hidden-xs">
+                    <h4>Popular Events</h4>
+                    <!-- widget cources list -->
+
+                    <ul class="widget-cources-list list-unstyled">
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="alignleft">
+                                    <img src="images/events/event.png" alt="image description">
+                                </div>
+                                <div class="description-wrap">
+                                    <h6>Lorem Ipsum</h6>
+                                    <strong
+                                        class="price text-gray element-block font-lato text-uppercase text-size">$
+                                        0.00-1000.00</strong>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="alignleft">
+                                    <img src="images/events/event.png" alt="image description">
+                                </div>
+                                <div class="description-wrap">
+                                    <h6>Lorem Ipsum</h6>
+                                    <strong
+                                        class="price text-gray element-block font-lato text-uppercase text-size">Free</strong>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="col-xs-12 col-sm-12 col-md-3 ">
+                    <h4>Quick Links</h4>
+                    <!-- fooer navigation -->
+                    <ul class="fooer-navigation list-unstyled">
+                        <li><a href="search-event.html">Events</a></li>
+                        <li><a href="marketplace.html">Marketplace</a></li>
+                        <li><a href="services.html">Services</a></li>
+
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html">Terms of Use</a>
+                        </li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="error-404.html">404 Page</a></li>
+                        <li><a href="maintenance-503.html">503 Page</a></li>
+                    </ul>
+                </nav>
+                <div class="col-xs-12 col-sm-12 col-md-3 ">
+                    <h4>contact us</h4>
+                    <p>If you want to contact us about any issue our support available to help you 9am-6pm Monday to
+                        Friday.</p>
+                    <!-- ft address -->
+                    <address class="ft-address">
+                        <dl>
+                            <dt><span class="fas fa-map-marker"><span class="sr-only">marker</span></span></dt>
+                            <dd>Address: Office 2, 2nd Floor, Al-Madina Arcade, Bahria Town Phase 7, Rawalpindi</dd>
+                            <dt><span class="fas fa-phone-square"><span class="sr-only">phone</span></span></dt>
+                            <dd>Call: <a href="tel:+92518897268">+(92) 51 889 7268</a></dd>
+                            <dt><i class="fas fa-envelope-open"></i><span class="sr-only">email</span></dt>
+                            <dd>Email: <a href="mailto:info@example.com">info@example.com</a></dd>
+                        </dl>
+                    </address>
+                </div>
+            </div>
+        </aside>
+        <!-- page footer -->
+        <footer id="page-footer" class="font-lato">
+            <div class="container">
+                <div class="row holder">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-center">
+                            <ul class="socail-networks list-unstyled">
+                                <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+                            </ul>
+                            <p class="my-auto ms-3 am_marg_top"><a href="javascript:void(0);">EventCo</a> | &copy; 2022
+                                <a href="#"></a>, All rights
+                                reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- DEBUG-VIEW ENDED 16 APPPATH\Views\frontend\template\footer.php -->
+    <!-- back top of the page -->
+    <span id="back-top" class="text-center"><i class="fas fa-angle-up"></i></span>
+    <!-- loader of the page -->
+    <div id="loader" class="loader-holder">
+        <div class="block"><img src="images/svg/hearts.svg" width="100" alt="loader"></div>
+    </div>
+
+    <!-- include jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- include jQuery -->
+    <script src="js/plugins.js"></script>
+    <!-- include jQuery -->
+    <script src="js/jquery.main.js"></script>
+    <!-- include jQuery -->
+    <script src="js/init.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/iconify.min.js"></script>
+    <script src="js/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
+
+    <!-- include calendar -->
+    <script src="js/popper.js"></script>
+    <script src="js/moment-with-locales.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+
+
+    <script>
+        $('#custom-select').select2();
+    </script>
+
+    <script src="js/sweetalert2.min.js"></script>
+
+    <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.33.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+</body>
+
+</html>

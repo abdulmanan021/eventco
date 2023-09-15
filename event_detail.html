@@ -1,0 +1,1939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<!-- set the viewport width and initial-scale on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- set the HandheldFriendly -->
+	<meta name="HandheldFriendly" content="True">
+	<!-- set the description -->
+	<meta name="description" content="Eventco">
+	<!-- set the Keyword -->
+	<meta name="keywords" content="">
+	<meta name="author" content="abdulmanan">
+	<!-- set the page title -->
+	<title>EventCo - Event Detail</title>
+	<!-- include google roboto font cdn link -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i"
+		rel="stylesheet">
+	<!-- Font Google Material Icons CDN -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+	<!-- include the site bootstrap stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- include the site responsive stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/all.min.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/sweetalert2.min.css">
+	<link rel="icon" href="images/logo-icon.png" />
+	<!-- calendar css -->
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+	<header id="page-header" class="page-header-stick">
+		<!-- header holder -->
+		<div class="header-holder">
+			<div class="container-fluid px-0">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="index.html">
+							<img class="logo-light" src="images/logo/logo.png" alt="EventCo">
+						</a>
+						<div class="nav-item my-auto me-3 top_search_bar">
+							<div class="input-group rounded-pill border border-muted border-1 overflow-hidden am_topsearchbar_bg w-100">
+								<input type="search" class="form-control border-0 am_topsearchbar_bg am_homesearchbar_bg" placeholder="Search Event">
+								<span class="input-group-text border-0 am_topsearchbar_bg am_homesearchbar_bg"><i class="fas fa-search"></i></span>
+							</div>
+						</div>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav ms-auto">
+								
+								<li class="nav-item">
+									<a class="nav-link text-white" href="index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white" href="search-event.html">Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white" href="marketplace.html">Marketplace</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white" href="services.html">Services</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white" href="blog.html">Blog</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white" href="contact-us.html">Contact Us</a>
+								</li>
+								<li class="nav-item dropdown my-auto">
+									<a class="nav-link dropdown-toggle text-white" href="#" id="all-pages" role="button"
+										data-bs-toggle="dropdown" aria-expanded="false">
+										All Pages
+									</a>
+									<ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start all_pages_dropdown"
+										aria-labelledby="all-pages">
+										<li><a class="dropdown-item" href="search-event.html">Search Event</a></li>
+										<li><a class="dropdown-item active" href="event_detail.html">Event Detail</a></li>
+										<li><a class="dropdown-item" href="marketplace.html">Marketplace</a></li>
+										<li><a class="dropdown-item" href="services.html">Services</a></li>
+										<li><a class="dropdown-item" href="blog.html">Blog</a></li>
+										<li><a class="dropdown-item" href="blog-detail.html">Blog Detail</a></li>
+										<li><a class="dropdown-item" href="speakers.html">Speakers</a></li>
+										<li><a class="dropdown-item" href="sponsors.html">Sponsors</a></li>
+										<li><a class="dropdown-item" href="schedule.html">Schedule</a></li>
+										<li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+										<li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+										<li><a class="dropdown-item" href="terms-and-conditions.html">terms &
+												conditions</a></li>
+										<li><a class="dropdown-item" href="privacy-policy.html">privacy Policy</a></li>
+										<li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+										<li><a class="dropdown-item" href="error-404.html">404 page</a></li>
+										<li><a class="dropdown-item" href="maintenance-503.html">503 Page</a></li>
+										<li><a class="dropdown-item" href="signup.html">Signup</a></li>
+									</ul>
+								</li>
+								<li class="nav-item my-auto ms-3">
+									<a href="login.html"
+										class="btn btn-show-more text-white text-uppercase no-shrink rounded">Login</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<!-- nav 5 -->
+			</div>
+		</div>
+	</header>
+	<!-- contain main informative part of the site -->
+	<main id="main" class="p-0">
+		<!-- intro block -->
+		<div class="intro-block position-relative" style="height: 600px;">
+			<div class="slider fade-slider" style="height:100%">
+					<!-- intro block slide -->
+					<article class="intro-block-slide overlay bg-cover"
+						style="background-image: url(images/bg/apple-bg1.jpg);">
+						<div class="align-items-center align-wrap container d-flex h-100">
+							<div class="align">
+								<div class="anim">
+									<h1 class="intro-block-heading">iPhone 14 Launch</h1>
+								</div>
+								<div class="anim delay1">
+									<p>The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.</p>
+								</div>
+								<div class="anim delay2">
+									<div class="btns-wrap">
+										<a href="javascript:void(0);"
+											class="btn btn-show-more text-uppercase fs-6 am_register_event am_general_border">Register
+											Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- intro block slide -->
+					<article class="intro-block-slide overlay bg-cover"
+						style="background-image: url(images/bg/apple-bg.jpg);">
+						<div class="align-items-center align-wrap container d-flex h-100">
+							<div class="align">
+								<div class="anim">
+									<h1 class="intro-block-heading">iPhone 14 Launch</h1>
+								</div>
+								<div class="anim delay1">
+									<p>The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.</p>
+								</div>
+								<div class="anim delay2">
+									<div class="btns-wrap">
+										<a href="javascript:void(0);"
+											class="btn btn-show-more text-uppercase fs-6 am_register_event am_general_border">Register
+											Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- intro block slide -->
+					<article class="intro-block-slide overlay bg-cover"
+						style="background-image: url(images/bg/apple-bg2.jpg);">
+						<div class="align-items-center align-wrap container d-flex h-100">
+							<div class="align">
+								<div class="anim">
+									<h1 class="intro-block-heading">iPhone 14 Launch</h1>
+								</div>
+								<div class="anim delay1">
+									<p>The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.</p>
+								</div>
+								<div class="anim delay2">
+									<div class="btns-wrap">
+										<a href="javascript:void(0);"
+											class="btn btn-show-more text-uppercase fs-6 am_register_event am_general_border">Register
+											Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+			</div>
+		</div>
+
+		<!--  Event timer -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card border-0 am_general_border position-relative">
+						<div class="am_eventcounter_position">
+							<div class="course-timer text-center am_eventcounter_bg py-3 mb-1 am_general_border">
+								<input type="hidden" id="event_start" value="Oct 19 2022, 14:00:00">
+								<div id="countdown">
+									<ul class="list-unstyled mb-0">
+										<li class="text-center"><span id="days" class="d-block"></span>days</li>
+										<li class="text-center"><span id="hours" class="d-block"></span>Hours</li>
+										<li class="text-center"><span id="minutes" class="d-block"></span>Min</li>
+										<li class="text-center"><span id="seconds" class="d-block"></span>Secs</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- About section-->
+		<section class="" style="padding-top: 100px; padding-bottom: 30px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="card p-3 border-0 am_general_border mb-4">
+							<header class="seperator-head mb-0 pb-0">
+								<h2>About Event</h2>
+							</header>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="card p-3 border-0 am_general_border">
+							<div class="row">
+								<div class="col-lg-6 col-md-12">
+									<h4 class="fw-bold my-3 am_paratext2 py-1">iPhone 14 Launch</h4>
+								<p class="text-muted my-3 am_paratext5">
+									The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.
+								</p>
+								<p class="text-muted my-3 am_paratext5">
+									Rumored Features
+								</p>
+								<ul class="am_aboutevent_list">
+									<li>6.1 and 6.7-inch sizes</li>
+									<li>No notch</li>
+									<li>Pill-shaped camera cutout</li>
+									<li>No rear camera bump</li>
+									<li>A15/A16 chip</li>
+									<li>Qualcomm X65 modem</li>
+								</ul>
+								<button type="button" class="btn btn-show-more text-white p-3 px-4 mt-3 am_general_border">Register Now</button>
+							</div>
+							<div class="col-lg-6 col-md-12 my-auto text-center">
+								<div class="am_about_imgg mx-auto">
+									<div class="imgagee">
+										<img src="images/events/event-box-2.jpg" class="img-fluid am_imgfit"
+											alt="image not found">
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Features -->
+		<section class="news-block py-0">
+			<aside class="features-aside">
+				<div class="container">
+					<div class="card p-3 border-0 am_general_border mb-4">
+						<header class="seperator-head mb-0 pb-0">
+							<h2>Our Features</h2>
+						</header>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-4 col-md-6 mb-4 am_new_margintop">
+							<a href="javascript:void(0);"
+								class="col h-100 am_new_hov_effect py-3 am_new_marginside am_min_height m-0 am_general_border">
+								<span class="icn-wrap text-center no-shrink">
+									<i class="fab fa-teamspeak fa-3x text-white my-auto"></i>
+								</span>
+								<div class="description">
+									<h4 class="features-aside-heading">Great Speakers</h4>
+									<p class="my-2 text-white am_paratext5">
+										In that vein, we compiled some of the greatest public speakers of all time, people whose words changed the course of societies and defined eras.
+									</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-4 am_new_margintop">
+							<a href="javascript:void(0);"
+								class="col h-100 am_new_hov_effect py-3 am_new_marginside am_min_height m-0 am_general_border">
+								<span class="icn-wrap text-center no-shrink">
+									<i class="fas fa-search fa-3x text-white my-auto"></i>
+								</span>
+								<div class="description">
+									<h4 class="features-aside-heading">Experience</h4>
+									<p class="my-2 text-white am_paratext5">
+										iPhones are generally much smoother, faster, and have significantly better longevity compared to Android smartphones. They can outperform flagship Android devices thanks to Apple-manufactured hardware and system software.
+									</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-4 am_new_margintop">
+							<a href="javascript:void(0);"
+								class="col h-100 am_new_hov_effect py-3 am_new_marginside am_min_height m-0 am_general_border">
+								<span class="icn-wrap text-center no-shrink">
+									<i class="fas fa-network-wired fa-3x text-white my-auto"></i>
+								</span>
+								<div class="description ms-3">
+									<h4 class="features-aside-heading">Networking</h4>
+									<p class="my-2 text-white am_paratext5">
+										WiFi networking finds nearby Wi-Fi networks and sends information about them to Apple to help Apple build a database of open Wi-Fi networks, & to figure out your location if you don't have cell service.
+									</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-4 am_new_margintop">
+							<a href="javascript:void(0);"
+								class="col h-100 am_new_hov_effect py-3 am_new_marginside am_min_height m-0 am_general_border">
+								<span class="icn-wrap text-center no-shrink">
+									<i class="fas fa-glass-cheers fa-3x text-white my-auto"></i>
+								</span>
+								<div class="description ms-3">
+									<h4 class="features-aside-heading">Party</h4>
+									<p class="my-2 text-white am_paratext5">
+										Each fall, Apple introduces new iPhone models, and 2022 will be no exception. We're expecting four new iPhones in 6.1 and 6.7-inch sizes. Two of those iPhones will be standard, more affordable models called the iPhone 14 and iPhone 14 Max, while the other two will be the higher-end "Pro" models called the iPhone 14 Pro and iPhone 14 Pro Max.
+									</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-4 am_new_margintop">
+							<a href="javascript:void(0);"
+								class="col h-100 am_new_hov_effect py-3 am_new_marginside am_min_height m-0 am_general_border">
+								<span class="icn-wrap text-center no-shrink">
+									<i class="fas fa-users fa-3x text-white my-auto"></i>
+								</span>
+								<div class="description ms-3">
+									<h4 class="features-aside-heading">New People</h4>
+									<p class="my-2 text-white am_paratext5">
+										Family Sharing makes it easy for up to six family members to share music, movies, TV shows, apps, books, subscriptions including iCloud+, and more, all without sharing an Apple ID.
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</section>
+
+		<!-- Speakers -->
+		<section class="news-block professionals-block py-0">
+			<div class="container">
+				<div class="card p-3 border-0 am_general_border mb-4">
+					<header class="seperator-head mb-0 pb-0">
+						<h2>Speakers</h2>
+					</header>
+				</div>
+				<div class="row">
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-40 mb-3">
+						<article
+							class="card border-0 am_general_border am_new_hov_effect" style="padding: 40px; transition: all ease-in-out 500ms;">
+							<div class="position-absolute top-0 end-0">
+								<i class="far fa-star fa-2x text-theme mt-3 me-3"></i>
+							</div>
+							<div class="am_speaker_profile">
+								<a href="profile.html">
+									<img src="images/speakers/speaker-1.png" class="img-fluid am_imgfit" alt="">
+								</a>
+							</div>
+							<a href="profile.html">
+								<h4 class="fw-bold am_onelinetext py-1 my-2 text-center">Emma</h4>
+							</a>
+							<h6 class="mt-1 mb-3 text-center">CEO & Fonder</h6>
+							<p class="fw-light text-justify text-muted am_paratext3">
+								A founder is someone who sets up a team and finds business and almost everything else needed to start their business. A CEO, unlike the founder, is appointed to their position. They guide and lead the team to bring about success
+							</p>
+							<div class="d-flex justify-content-center">
+								<a href="javascript:void(0);" class="am_blog_social-icons">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-instagram"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</article>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-40 mb-3">
+						<article
+							class="card border-0 am_general_border am_new_hov_effect" style="padding: 40px; transition: all ease-in-out 500ms;">
+							<div class="position-absolute top-0 end-0">
+								<i class="fas fa-award fa-2x text-theme mt-3 me-3"></i>
+							</div>
+							<div class="am_speaker_profile">
+								<a href="profile.html">
+									<img src="images/speakers/speaker-2.png" class="img-fluid am_imgfit" alt="">
+								</a>
+							</div>
+							<a href="profile.html">
+								<h4 class="fw-bold am_onelinetext py-1 my-2 text-center">Jannie</h4>
+							</a>
+							<h6 class="mt-1 mb-3 text-center">Speaker</h6>
+							<p class="fw-light text-justify text-muted am_paratext3">
+								Obviously the speaker and the listener are the two most important keys, as there would not be a communication exchange without them. But the speaker is arguably the most important key as they are responsible for creating a clear message that will be understood by their listener.
+							</p>
+							<div class="d-flex justify-content-center">
+								<a href="javascript:void(0);" class="am_blog_social-icons">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-instagram"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</article>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-40 mb-3">
+						<article
+							class="card border-0 am_general_border am_new_hov_effect" style="padding: 40px; transition: all ease-in-out 500ms;">
+							<div class="position-absolute top-0 end-0">
+								<i class="far fa-star fa-2x text-theme mt-3 me-3"></i>
+							</div>
+							<div class="am_speaker_profile">
+								<a href="profile.html">
+									<img src="images/speakers/speaker-3.png" class="img-fluid am_imgfit" alt="">
+								</a>
+							</div>
+							<a href="profile.html">
+								<h4 class="fw-bold am_onelinetext py-1 my-2 text-center">Thomas</h4>
+							</a>
+							<h6 class="mt-1 mb-3 text-center">Manager</h6>
+							<p class="fw-light text-justify text-muted am_paratext3">
+								The four primary functions of managers are planning, organizing, leading, and controlling. By using the four functions, managers work to increase the efficiency and effectiveness of their employees, processes, projects, and organizations as a whole.
+							</p>
+							<div class="d-flex justify-content-center">
+								<a href="javascript:void(0);" class="am_blog_social-icons">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-instagram"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</article>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-40 mb-3">
+						<article
+							class="card border-0 am_general_border am_new_hov_effect" style="padding: 40px; transition: all ease-in-out 500ms;">
+							<div class="position-absolute top-0 end-0">
+								<i class="fas fa-award fa-2x text-theme mt-3 me-3"></i>
+							</div>
+							<div class="am_speaker_profile">
+								<a href="profile.html">
+									<img src="images/speakers/speaker-4.png" class="img-fluid am_imgfit" alt="">
+								</a>
+							</div>
+							<a href="profile.html">
+								<h4 class="fw-bold am_onelinetext py-1 my-2 text-center">Giesele</h4>
+							</a>
+							<h6 class="mt-1 mb-3 text-center">Speaker</h6>
+							<p class="fw-light text-justify text-muted am_paratext3">
+								Obviously the speaker and the listener are the two most important keys, as there would not be a communication exchange without them. But the speaker is arguably the most important key as they are responsible for creating a clear message that will be understood by their listener.
+							</p>
+							<div class="d-flex justify-content-center">
+								<a href="javascript:void(0);" class="am_blog_social-icons">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-instagram"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</article>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-40 mb-3">
+						<article
+							class="card border-0 am_general_border am_new_hov_effect" style="padding: 40px; transition: all ease-in-out 500ms;">
+							<div class="position-absolute top-0 end-0">
+								<i class="far fa-star fa-2x text-theme mt-3 me-3"></i>
+							</div>
+							<div class="am_speaker_profile">
+								<a href="profile.html">
+									<img src="images/speakers/speaker-1.png" class="img-fluid am_imgfit" alt="">
+								</a>
+							</div>
+							<a href="profile.html">
+								<h4 class="fw-bold am_onelinetext py-1 my-2 text-center">Emma</h4>
+							</a>
+							<h6 class="mt-1 mb-3 text-center">CEO & Fonder</h6>
+							<p class="fw-light text-justify text-muted am_paratext3">
+								A founder is someone who sets up a team and finds business and almost everything else needed to start their business. A CEO, unlike the founder, is appointed to their position. They guide and lead the team to bring about success
+							</p>
+							<div class="d-flex justify-content-center">
+								<a href="javascript:void(0);" class="am_blog_social-icons">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-instagram"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</article>
+					</div>
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-40 mb-3">
+						<article
+							class="card border-0 am_general_border am_new_hov_effect" style="padding: 40px; transition: all ease-in-out 500ms;">
+							<div class="position-absolute top-0 end-0">
+								<i class="fas fa-award fa-2x text-theme mt-3 me-3"></i>
+							</div>
+							<div class="am_speaker_profile">
+								<a href="profile.html">
+									<img src="images/speakers/speaker-2.png" class="img-fluid am_imgfit" alt="">
+								</a>
+							</div>
+							<a href="profile.html">
+								<h4 class="fw-bold am_onelinetext py-1 my-2 text-center">Jannie</h4>
+							</a>
+							<h6 class="mt-1 mb-3 text-center">Speaker</h6>
+							<p class="fw-light text-justify text-muted am_paratext3">
+								Obviously the speaker and the listener are the two most important keys, as there would not be a communication exchange without them. But the speaker is arguably the most important key as they are responsible for creating a clear message that will be understood by their listener.
+							</p>
+							<div class="d-flex justify-content-center">
+								<a href="javascript:void(0);" class="am_blog_social-icons">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-instagram"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!-- <div class="row">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+						<div class="am_performer_design mx-auto am_box_shadow">
+							<div class="am_performer_design_after">
+								<h6 class="text-center mt-5 text-white">Natisha Decoux</h6>
+								<p class="text-light text-center mt-3">Event Manager</p>
+								<ul class="socail-networks list-unstyled">
+									<li><a href="#" class="facebook"><span class="fab fa-facebook-f"></span></a></li>
+									<li><a href="#" class="twitter"><span class="fab fa-twitter"></span></a></li>
+									<li><a href="#" class="linkedin"><span class="fab fa-linkedin-in"></span></a></li>
+								</ul>
+							</div>
+							<img src="images/speakers/speaker-1.png" class="img-fluid am_imgfit rounded-circle"
+								alt="image not found">
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+		<!-- counter aside -->
+		<section class="news-block counter-aside py-0">
+			<div class="container">
+				<div class="card p-3 border-0 am_general_border mb-4">
+					<header class="seperator-head text-dark mb-0 pb-0">
+						<h2>Stats</h2>
+					</header>
+				</div>
+				<div class="align py-0">
+					<div class="row justify-content-center" id="counter">
+						<div class="col-lg-3 col-md-6 col-xs-12 text-center am_new_margintop mb-4">
+							<div class="card h-100 am_general_border border-0 p-4 am_new_hov_effect">
+								<h4 class="counter-aside-heading">
+									<i class="fas fa-headphones-alt text-theme fa-3x my-3"></i>
+									<strong class="countdown element-block text-theme counter-value"
+										data-count="150">0</strong>
+									<strong class="text element-block text-theme">participants</strong>
+								</h4>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-xs-12 text-center am_new_margintop mb-4">
+							<div class="card h-100 am_general_border border-0 p-4 am_new_hov_effect">
+								<h4 class="counter-aside-heading">
+									<i class="fas fa-trophy text-theme fa-3x my-3"></i>
+									<strong class="countdown element-block text-theme counter-value"
+										data-count="135">0</strong>
+									<strong class="text element-block text-theme">Awards Win</strong>
+								</h4>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-xs-12 text-center am_new_margintop mb-4">
+							<div class="card h-100 am_general_border border-0 p-4 am_new_hov_effect">
+								<h4 class="counter-aside-heading">
+									<i class="fas fa-medal text-theme fa-3x my-3"></i>
+									<strong class="countdown element-block text-theme counter-value"
+										data-count="98">0</strong>
+									<strong class="text element-block text-theme">Certified Teachers</strong>
+								</h4>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-xs-12 text-center am_new_margintop mb-4">
+							<div class="card h-100 am_general_border border-0 p-4 am_new_hov_effect">
+								<h4 class="counter-aside-heading">
+									<i class="fab fa-teamspeak text-theme fa-3x my-3"></i>
+									<strong class="countdown element-block text-theme counter-value"
+										data-count="580">0</strong>
+									<strong class="text element-block text-theme">Speaker</strong>
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Schedule -->
+		<section class="news-block py-0">
+			<div class="container">
+				<div class="card p-3 border-0 am_general_border mb-4">
+					<header class="seperator-head mb-0 pb-0">
+						<h2>Schedule Plan</h2>
+					</header>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav nav-tabs am__navs mb-4" id="myTab" role="tablist">
+							<li class="nav-item" role="presentation">
+								<button class="am_shcedule_navs active" id="day1-tab" data-bs-toggle="tab"
+									data-bs-target="#day1" type="button" role="tab" aria-controls="day1"
+									aria-selected="true">
+									<span class="am_nav_day">Day 01</span>
+									<span class="am_nav_date">01</span>
+									<span class="am_nav_month">Jan</span>
+									2022
+								</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="am_shcedule_navs" id="day2-tab" data-bs-toggle="tab"
+									data-bs-target="#day2" type="button" role="tab" aria-controls="day2"
+									aria-selected="false">
+									<span class="am_nav_day">Day 02</span>
+									<span class="am_nav_date">04</span>
+									<span class="am_nav_month">Jan</span>
+									2022
+								</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="am_shcedule_navs" id="day3-tab" data-bs-toggle="tab"
+									data-bs-target="#day3" type="button" role="tab" aria-controls="day3"
+									aria-selected="false">
+									<span class="am_nav_day">Day 03</span>
+									<span class="am_nav_date">11</span>
+									<span class="am_nav_month">Jan</span>
+									2022
+								</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="am_shcedule_navs" id="day4-tab" data-bs-toggle="tab"
+									data-bs-target="#day4" type="button" role="tab" aria-controls="day4"
+									aria-selected="false">
+									<span class="am_nav_day">Day 04</span>
+									<span class="am_nav_date">1</span>
+									<span class="am_nav_month">Feb</span>
+									2022
+								</button>
+							</li>
+						</ul>
+						<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
+								<div class="row am_marg_top991 justify-content-end">
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card ms-0">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Overall Review</h4>
+											<p class="text-muted am_paratext2 my-3">
+												The iPhone 14 is expected to feature WiFi 6E connectivity, according to Apple analyst Ming-Chi Kuo. Kuo says that WiFi 6E will offer the high-speed wireless transmissions necessary for AR and VR experiences, and it is also expected to be used in the mixed reality headset that could come out in 2022
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 am_reverse_columns justify-content-start">
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card2">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-2.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Emma Scroggy</h6>
+													<p class="text-muted my-0">Speaker</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Release Date</h4>
+											<p class="text-muted am_paratext2 my-3">
+												The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 justify-content-end">
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card ms-0">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-3.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">John Doe</h6>
+													<p class="text-muted my-0">Project Manager</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Features Update</h4>
+											<p class="text-muted am_paratext2 my-3">
+												6.1 and 6.7-inch sizes, No notch,Pill-shaped camera cutout, No rear camera bump, A15/A16 chip, Qualcomm X65 modem
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 am_reverse_columns justify-content-start">
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card2">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-4.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Annie</h6>
+													<p class="text-muted my-0">HR Manager</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Ticket Categories</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Advance tickets, otherwise known as advance fares, are single one-way train tickets that offer excellent value for money but must be booked in advance.
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="day2-tab">
+								<div class="row am_marg_top991 justify-content-end">
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card ms-0">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 am_reverse_columns justify-content-start">
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card2">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 justify-content-end">
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card ms-0">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 am_reverse_columns justify-content-start">
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card2">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="day3" role="tabpanel" aria-labelledby="day3-tab">
+								<div class="row am_marg_top991 justify-content-end">
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card ms-0">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 am_reverse_columns justify-content-start">
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card2">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 justify-content-end">
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card ms-0">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 am_reverse_columns justify-content-start">
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card2">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="day4" role="tabpanel" aria-labelledby="day4-tab">
+								<div class="row am_marg_top991 justify-content-end">
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card ms-0">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 am_reverse_columns justify-content-start">
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card2">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 justify-content-end">
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+										<div class="am_sched_date_vert mx-auto"></div>
+									</div>
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card ms-0">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+								</div>
+								<div class="row am_marg_top991 am_reverse_columns justify-content-start">
+									<div class="col-lg-5 col-md-9 col-sm-12 am_marg_top">
+										<div class="am_schedule_card2">
+											<div class="d-flex align-items-center">
+												<div class="flex-shrink-0">
+													<div class="am_org_position">
+														<img src="images/speakers/speaker-1.png"
+															class="img-fluid rounded-circle am_imgfit" alt="not found">
+													</div>
+												</div>
+												<div class="flex-grow-1 ms-3">
+													<h6 class="am_onelinetext py-1 fw-bold">Ashli Scroggy</h6>
+													<p class="text-muted my-0">Founder & CEO</p>
+												</div>
+											</div>
+											<h4 class="fw-bold am_onelinetext py-1 my-3">Modern Marketing Summit Sydney
+												2018</h4>
+											<p class="text-muted am_paratext2 my-3">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+												eiusmtempor incididunt labore et
+											</p>
+											<button type="button"
+												class="btn btn-show-more text-white mb-3 px-3 py-2 fs-6 am_general_border">Read More</button>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-3 col-sm-12">
+										<div class="am_sched_date mx-auto">
+											<p class="my-0">9:00 AM</p>
+											<p class="my-0">10:00 AM</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Tickets -->
+		<section class="news-block py-0">
+			<div class="container">
+				<div class="card p-3 border-0 am_general_border my-4">
+					<header class="seperator-head mb-0 pb-0">
+						<h2>Choose A Ticket</h2>
+					</header>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 mb-5">
+						<div class="card position-relative h-100 border-0" style="border-radius: 20px !important;">
+							<div class="am_ticket_header border-0 text-center text-white">
+								<div class="am_ticket_header1"></div>
+								<div class="am_ticket_header_border"></div>
+								<h4 class="mt-3">Standard</h4>
+								<h2 class="fw-bold">$30</h2>
+								<p>12/25 Sold</p>
+							</div>
+							<div class="card-body position-relative">
+								<button class="am_buyticket_btn">Buy Ticket</button>
+								<div class="am_ticket_inner">
+									<h4 class="pb-2 my-auto am_onelinetext mx-auto">Standard</h4>
+									<div style="height: 100px;">
+										<p class="mt-1 text-center text-dark am_paratext5 mb-0">
+											Advance tickets, otherwise known as advance fares, are single one-way train tickets that offer excellent value for money but must be booked in advance. Advance tickets usually go on sale up to 12 weeks ahead of travel, but they are also sold in limited numbers.
+										</p>
+									</div>
+									<a target="_blank" href="javascript:void(0);" class="text-center">
+										<div class="am_org_position mx-auto my-3">
+											<img src="images/blog/org-2.jpg" class="img-fluid am_imgfit"
+												alt="Apple">
+										</div>
+										<h6 class="ms-2 text-theme my-auto">Apple</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5">
+						<div class="card position-relative h-100 border-0" style="border-radius: 20px !important;">
+							<div class="am_ticket_header am_ticket_header_silver border-0 text-center text-white">
+								<div class="am_ticket_header1"></div>
+								<div class="am_ticket_header_border am_ticket_header_border_silver"></div>
+								<h4 class="mt-3">Silver</h4>
+								<h2 class="fw-bold">$80</h2>
+								<p>12/25 Sold</p>
+							</div>
+							<div class="card-body position-relative">
+								<button class="am_buyticket_btn am_buyticket_btn_silver">Buy Ticket</button>
+								<div class="am_ticket_inner">
+									<h4 class="pb-2 my-auto am_onelinetext mx-auto">Silver</h4>
+									<div style="height: 100px;">
+										<p class="mt-1 text-center text-dark am_paratext5 mb-0">
+											Tickets, discount packages & pay-what-you-can virtual access all available now. Friday night Intimate Concerts held at KMFA 89.5 in person & streaming online. Student Rush tickets. On sale now. Premium & General Seating. Professiona
+										</p>
+									</div>
+									<a target="_blank" href="javascript:void(0);" class="text-center">
+										<div class="am_org_position mx-auto my-3">
+											<img src="images/blog/org-2.jpg" class="img-fluid am_imgfit"
+												alt="Apple">
+										</div>
+										<h6 class="ms-2 text-theme my-auto">Apple</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5">
+						<div class="card position-relative h-100 border-0" style="border-radius: 20px !important;">
+							<div class="am_ticket_header am_ticket_header_gold border-0 text-center text-white">
+								<div class="am_ticket_header1"></div>
+								<div class="am_ticket_header_border am_ticket_header_border_gold"></div>
+								<h4 class="mt-3">Gold</h4>
+								<h2 class="fw-bold">$100</h2>
+								<p>12/25 Sold</p>
+							</div>
+							<div class="card-body position-relative">
+								<button class="am_buyticket_btn am_buyticket_btn_gold">Buy Ticket</button>
+								<div class="am_ticket_inner">
+									<h4 class="pb-2 my-auto am_onelinetext mx-auto">Gold</h4>
+									<div style="height: 100px;">
+										<p class="mt-1 text-center text-dark am_paratext5 mb-0">
+											On Sale Today And Selling Fast, Secure Your Seats Now As Prices Are Rising. Secure Delivery. Fast Checkout. Deals Won't Last Long. Wide Selection. Services: Onsale Alerts, Detailed Seat Maps, Local Currency Checkout, Tracked Delivery, e-Ticket Option.
+										</p>
+									</div>
+									<a target="_blank" href="javascript:void(0);" class="text-center">
+										<div class="am_org_position mx-auto my-3">
+											<img src="images/blog/org-2.jpg" class="img-fluid am_imgfit"
+												alt="Apple">
+										</div>
+										<h6 class="ms-2 text-theme my-auto">Apple</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Sponsors -->
+		<section class="news-block py-0">
+			<div class="container">
+				<div class="card p-3 border-0 am_general_border my-4">
+					<header class="seperator-head mb-0 pb-0">
+						<h2>Platinum Sponsors</h2>
+					</header>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_platinum position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/apple.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_platinum position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/samsung (2).png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_platinum position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/amazon.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_platinum position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/nike.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_platinum position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/puma.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_platinum position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/lg.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="card p-3 border-0 am_general_border mb-4">
+							<header class="seperator-head mb-0 pb-0">
+								<h2>Gold Sponsors</h2>
+							</header>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_gold position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/fedex.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_gold position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/hero.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_gold position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/ericsson.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_gold position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/coke.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_gold position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/mcdonald.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_gold position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/redbull.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="card p-3 border-0 am_general_border mb-4">
+							<header class="seperator-head mb-0 pb-0">
+								<h2>Silver Sponsors</h2>
+							</header>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_silver position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/nokia.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_silver position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/teamviewer.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_silver position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/facebook.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_silver position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/youtube.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_silver position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/agora.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="margin-top: 30px;">
+						<div class="card p-3 h-100 am_general_border d-flex justify-content-center align-items-center sponsor_silver position-relative">
+							<div class="sponsor_top_image">
+								<img src="images/sponsors/twilio.png" class="img-fluid" alt="image not found">
+							</div>
+							<p class="am_paratext3 text-muted text-justify mb-2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged.
+							</p>
+							<a href="javascript:void(0);" class="text-theme text-center show_more my-3">Visit Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Registration Form -->
+		<section class="event_registeration_form mb-4">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="card border-0 am_general_border overflow-hidden">
+							<div class="row">
+								<div class="col-lg-4 col-md-5 col-sm-12 px-0">
+									<div class="card position-relative h-100 border-0">
+										<div class="am_ticket_header rounded-0 border-0 text-center text-white">
+											<div class="am_ticket_header1"></div>
+											<div class="am_ticket_header_border">
+												<div class="am_register_icon mx-auto position-relative mt-0">
+													<i class="fas fa-rocket text-theme"></i>
+												</div>
+											</div>
+										</div>
+										<div class="card-body position-relative">
+											<div class="am_ticket_inner">
+												<h3 class="fw-bold text-center my-3">REGISTER NOW</h3>
+												<h6 class="my-3 text-center">
+													This guide will teach you how to create a successful event registration strategy and help you deliver the best registration experience for your attendees.
+												</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-8 col-md-7 col-sm-12">
+									<form>
+										<div class="row justify-content-center am_light_theme px-3">
+											<div class="col-md-12 my-3">
+												<input type="text" class="form-control p-3 border-0 am_general_border"
+													placeholder="Full Name">
+											</div>
+											<div class="col-md-12 mb-3">
+												<input type="email" class="form-control p-3 border-0 am_general_border"
+													placeholder="Email">
+											</div>
+											<div class="col-md-12 mb-3">
+												<input type="tel" class="form-control p-3 border-0 am_general_border"
+													placeholder="Phone">
+											</div>
+											<div class="col-md-12 mb-3">
+												<textarea class="form-control p-3 border-0 am_general_border" placeholder="Message"
+													rows="5"></textarea>
+											</div>
+											<div class="col-md-12 mb-3 text-end">
+												<button type="submit"
+													class="btn btn-show-more text-white px-3 py-2 fs-6 am_general_border">Register
+													Now</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- footer area container -->
+		<div class="footer-area bg-dark text-gray position-relative">
+
+			<!-- aside -->
+			<aside class="aside container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-3 ">
+						<div class="logo"><a href="javascript:void(0);"><img src="images/logo/logo.png"
+									alt="EventCo"></a>
+						</div>
+						<p>EventCo is the world’s leading all-in-one virtual event platform. Offer your participants
+							a virtual venue that allows them to move freely across multiple sessions,
+							networking lounge, and exhibition booths to have meaningful interactions.</p>
+						<a href="javascript:void(0);" class="btn btn-default text-uppercase">Host an event for free</a>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3  hidden-xs">
+						<h4>Popular Events</h4>
+						<!-- widget cources list -->
+
+						<ul class="widget-cources-list list-unstyled">
+							<li>
+								<a href="javascript:void(0);">
+									<div class="alignleft">
+										<img src="images/events/event.png" alt="image description">
+									</div>
+									<div class="description-wrap">
+										<h6>Lorem Ipsum</h6>
+										<strong
+											class="price element-block font-lato text-uppercase text-size">$
+											0.00-1000.00</strong>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">
+									<div class="alignleft">
+										<img src="images/events/event.png" alt="image description">
+									</div>
+									<div class="description-wrap">
+										<h6>Lorem Ipsum</h6>
+										<strong
+											class="price element-block font-lato text-uppercase text-size">Free</strong>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<nav class="col-xs-12 col-sm-12 col-md-3 ">
+						<h4>Quick Links</h4>
+						<!-- fooer navigation -->
+						<ul class="fooer-navigation list-unstyled">
+							<li><a href="search-event.html">Events</a></li>
+							<li><a href="marketplace.html">Marketplace</a></li>
+							<li><a href="services.html">Services</a></li>
+
+							<li><a href="privacy-policy.html">Privacy Policy</a></li>
+							<li><a href="terms-and-conditions.html">Terms of Use</a>
+							</li>
+							<li><a href="about-us.html">About Us</a></li>
+							<li><a href="contact-us.html">Contact Us</a></li>
+							<li><a href="faqs.html">FAQs</a></li>
+							<li><a href="error-404.html">404 Page</a></li>
+							<li><a href="maintenance-503.html">503 Page</a></li>
+						</ul>
+					</nav>
+					<div class="col-xs-12 col-sm-12 col-md-3 ">
+						<h4>contact us</h4>
+						<p>If you want to contact us about any issue our support available to help you 9am-6pm Monday to
+							Friday.</p>
+						<!-- ft address -->
+						<address class="ft-address">
+							<dl>
+								<dt><span class="fas fa-map-marker"><span class="sr-only">marker</span></span></dt>
+								<dd>Address: Office 2, 2nd Floor, Al-Madina Arcade, Bahria Town Phase 7, Rawalpindi</dd>
+								<dt><span class="fas fa-phone-square"><span class="sr-only">phone</span></span></dt>
+								<dd>Call: <a href="tel:+92518897268">+(92) 51 889 7268</a></dd>
+								<dt><i class="fas fa-envelope-open"></i><span class="sr-only">email</span></dt>
+								<dd>Email: <a href="mailto:info@example.com">info@example.com</a></dd>
+							</dl>
+						</address>
+					</div>
+				</div>
+			</aside>
+			<!-- page footer -->
+			<footer id="page-footer" class="font-lato">
+				<div class="container">
+					<div class="row holder">
+						<div class="col-md-12">
+							<div class="d-flex justify-content-center">
+								<ul class="socail-networks list-unstyled">
+									<li><a href="#"><span class="fab fa-facebook"></span></a></li>
+									<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+									<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+									<li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+								</ul>
+								<p class="my-auto ms-3 am_marg_top"><a href="javascript:void(0);">EventCo</a> | &copy;
+									2022 <a href="#"></a>, All rights
+									reserved</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- back top of the page -->
+		<span id="back-top" class="text-center"><i class="fas fa-angle-up"></i></span>
+		<!-- loader of the page -->
+		<div id="loader" class="loader-holder">
+			<div class="block"><img src="images/svg/hearts.svg" width="100" alt="loader"></div>
+		</div>
+	</main>
+
+	<!-- include jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- include jQuery -->
+	<script src="js/plugins.js"></script>
+	<!-- include jQuery -->
+	<script src="js/jquery.main.js"></script>
+	<!-- include jQuery -->
+	<script src="js/init.js"></script>
+	<script src="js/all.min.js"></script>
+	<script src="js/iconify.min.js"></script>
+	<script src="js/feather.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
+
+	<!-- include calendar -->
+	<script src="js/popper.js"></script>
+	<script src="js/moment-with-locales.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<script src="js/sweetalert2.min.js"></script>
+
+	<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.33.0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+	</script>
+
+	<script>
+		$('#custom-select').select2();
+	</script>
+
+	<script>
+		(function ($) {
+			"use strict";
+			$('#event_start_date').datetimepicker({
+				minDate: new Date(moment().format('MM/DD/YYYY hh:mm:ss A')),
+				allowInputToggle: true,
+				showClose: true,
+				showClear: true,
+				showTodayButton: true,
+				format: "MM/DD/YYYY hh:mm:ss A",
+				icons: {
+					time: 'far fa-clock',
+					date: 'far fa-calendar-alt',
+					up: 'fas fa-angle-up',
+					down: 'fas fa-angle-down',
+					previous: 'fas fa-angle-left',
+					next: 'fas fa-angle-right',
+					today: 'fas fa-angle-up',
+					clear: 'far fa-trash-alt',
+					close: 'fas fa-times'
+				},
+			});
+
+		})(jQuery);
+
+		(function () {
+			const second = 1000,
+				minute = second * 60,
+				hour = minute * 60,
+				day = hour * 24;
+
+			let birthday = $('#event_start').val(),
+				countDown = new Date(birthday).getTime(),
+				x = setInterval(function () {
+
+					let now = new Date().getTime(),
+						distance = countDown - now;
+					if (document.getElementById("days")) {
+						document.getElementById("days").innerText = Math.floor(distance / (day)),
+							document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+							document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+							document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+					}
+					//do something later when date is reached
+					if (distance < 0) {
+						let headline = document.getElementById("headline"),
+							countdown = document.getElementById("countdown"),
+							content = document.getElementById("content");
+						headline.innerText = "It's my birthday!";
+						countdown.style.display = "none";
+						content.style.display = "block";
+
+						clearInterval(x);
+					}
+					//seconds
+				}, 0)
+		}());
+
+
+		$(window).scroll(function () {
+			$(".upcoming-events-block-bg").css("background-position", "50% " + ($(this).scrollTop() / 2) + "px");
+		});
+
+		var a = 0;
+		$(window).scroll(function () {
+
+			var oTop = $('#counter').offset().top - window.innerHeight;
+			if (a == 0 && $(window).scrollTop() > oTop) {
+				$('.counter-value').each(function () {
+					var $this = $(this),
+						countTo = $this.attr('data-count');
+					$({
+						countNum: $this.text()
+					}).animate({
+						countNum: countTo
+					},
+
+						{
+
+							duration: 5000,
+							easing: 'swing',
+							step: function () {
+								$this.text(Math.floor(this.countNum));
+							},
+							complete: function () {
+								$this.text(this.countNum);
+								//alert('finished');
+							}
+
+						});
+				});
+				a = 1;
+			}
+
+		});
+
+		$(".am_register_event").click(function () {
+			$('html,body').animate({
+				scrollTop: $(".event_registeration_form").offset().top - 170
+			}, 'slow');
+		});
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- set the encoding of your site -->
+    <meta charset="utf-8">
+    <!-- set the viewport width and initial-scale on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- set the HandheldFriendly -->
+    <meta name="HandheldFriendly" content="True">
+    <!-- set the description -->
+    <meta name="description" content="Eventco">
+    <!-- set the Keyword -->
+    <meta name="keywords" content="">
+    <meta name="author" content="abdulmanan">
+    <!-- set the page title -->
+    <title>EventCo - Blog Detail</title>
+    <!-- include google roboto font cdn link -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i"
+        rel="stylesheet">
+    <!-- Font Google Material Icons CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- include the site bootstrap stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- include the site responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/am_frontcss.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/sweetalert2.min.css">
+    <link rel="icon" href="images/logo-icon.png" />
+    <!-- calendar css -->
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+</head>
+
+<!-- Side nav -->
+
+<body>
+    <!-- main container of all the page elements -->
+    <!-- header of the page -->
+
+    <header>
+        <!-- header holder -->
+        <div class="main-nav">
+            <div class="container-fluid">
+
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+
+                        <a class="navbar-brand" href="index.html">
+                            <img class="logo-dark" src="images/logo/logo-dark.png" alt="EventCo">
+                        </a>
+                        <div class="nav-item my-auto me-3 top_search_bar">
+                            <div class="input-group rounded-pill border border-muted border-1 overflow-hidden am_topsearchbar_bg">
+                                <input type="search" class="form-control border-0 am_topsearchbar_bg" placeholder="Search Event">
+                                <span class="input-group-text border-0 am_topsearchbar_bg"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+
+                        <button class="navbar-toggler bg-theme" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="search-event.html">Events</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="marketplace.html">Marketplace</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item my-auto">
+                                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item dropdown my-auto">
+                                    <a class="nav-link dropdown-toggle" href="#" id="all-pages" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        All Pages
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start all_pages_dropdown"
+                                        aria-labelledby="all-pages">
+                                        <li><a class="dropdown-item" href="search-event.html">Search Event</a></li>
+                                        <li><a class="dropdown-item" href="event_detail.html">Event Detail</a></li>
+                                        <li><a class="dropdown-item" href="marketplace.html">Marketplace</a></li>
+                                        <li><a class="dropdown-item" href="services.html">Services</a></li>
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item active" href="blog-detail.html">Blog Detail</a></li>
+                                        <li><a class="dropdown-item" href="speakers.html">Speakers</a></li>
+                                        <li><a class="dropdown-item" href="sponsors.html">Sponsors</a></li>
+                                        <li><a class="dropdown-item" href="schedule.html">Schedule</a></li>
+                                        <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                                        <li><a class="dropdown-item" href="terms-and-conditions.html">terms &
+                                                conditions</a></li>
+                                        <li><a class="dropdown-item" href="privacy-policy.html">privacy Policy</a></li>
+                                        <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                                        <li><a class="dropdown-item" href="error-404.html">404 page</a></li>
+                                        <li><a class="dropdown-item" href="maintenance-503.html">503 Page</a></li>
+                                        <li><a class="dropdown-item" href="signup.html">Signup</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="am_user_loggedin">
+                                            <img src="images/speakers/speaker-1.png" class="img-fluid am_imgfit" alt="">
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start am_profile_dropdown"
+                                        aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                                        <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- contain main informative part of the site -->
+    <main class="px-0">
+        <section class="news-block py-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 mt-4">
+                        <div class="am_blog_image">
+                            <div class="am_blogimage_footer">
+                                <div class="d-flex flex-wrap justify-content-around">
+                                    <div class="d-flex justify-content-center my-2">
+                                        <div class="am_blog_user">
+                                            <img src="images/speakers/speaker-1.png" class="img-fluid am_imgfit" alt="">
+                                        </div>
+                                        <h5 class="fw-light  my-auto ms-3 am_onelinetext">Emma</h5>
+                                    </div>
+                                    <div class="d-flex justify-content-center my-2">
+                                        <i class="far fa-calendar-alt  my-auto"></i>
+                                        <p class=" ms-2 my-auto ">March 30, 2022</p>
+                                    </div>
+                                    <div class="d-flex justify-content-center my-2">
+                                        <i class="fas fa-comment-alt  my-auto"></i>
+                                        <p class=" ms-2 my-auto ">09 Comments</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="images/blog/apple.jpg" class="img-fluid am_imgfit" alt="">
+                        </div>
+
+                        <h4 class="fw-bold am_onelinetext my-2">iPhone 14 Launch</h4>
+                        <p class="fw-light text-muted mb-2">
+                            The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.
+                        </p>
+                        <p class="fw-light text-muted mb-4">
+                            At this September event, we’d expect to see the iPhone 14, which is tipped to be rather similar to the iPhone 13, but gain a new screen size in the form of the iPhone 14 Max; there’ll apparently be no mini version. Both phones are tipped to stick with an A15 Bionic chipset, but with Apple adopting a form of A16 nomenclature. 
+                        </p>
+
+                        <div class="am_blog_important mb-4 am_general_border bg-white">
+                            <p class="fw-bold am_paratext3 my-auto">
+                                The iPhone 14 Pro and 14 Pro Max are set to be the phones that bring in the biggest changes. The infamous display notch is expected to be finally killed in favor of pill and punch-hole shaped cutouts for the front-facing camera and Face ID sensors. A fully new A16 Bionic chip is expected, as are camera upgrades, most notably a 48MP main sensor. 
+                            </p>
+                        </div>
+
+                        <div class="row my-2">
+                            <div class="col-lg-6 col-md-6 col-sm-12 my-2">
+                                <div class="am_blog_image_secondary">
+                                    <img src="images/blog/apple.jpeg" class="img-fluid am_imgfit" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 my-2">
+                                <div class="am_blog_image_secondary">
+                                    <img src="images/blog/iphone14.jpeg" class="img-fluid am_imgfit" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="fw-light text-muted mt-3 mb-2">
+                            The iPhone 14 release date could hit on September 22, which would be 10 days later. Last fall, Apple began iPhone 13 sales on September 24, which is in line with when past iPhones became available.
+                        </p>
+                        <p class="fw-light text-muted mb-4">
+                            At this September event, we’d expect to see the iPhone 14, which is tipped to be rather similar to the iPhone 13, but gain a new screen size in the form of the iPhone 14 Max; there’ll apparently be no mini version. Both phones are tipped to stick with an A15 Bionic chipset, but with Apple adopting a form of A16 nomenclature. 
+                        </p>
+
+                        <div class="am_blog_image">
+                            <a href="javascript:void(0);" class="am_blog_video-btn">
+                                <i class="fas fa-play ms-1"></i>
+                            </a>
+                            <img src="images/blog/apple.jpg" class="img-fluid am_imgfit" alt="">
+                        </div>
+
+                        <p class="fw-light text-muted my-2">
+                            Yet new iPhones aren’t the only devices expected to be shown off. LeaksApplePro claims the much-awaited AirPods Pro 2 will finally make their debut, bringing in a new design and featuring lossless audio and “state-of-the-art” active noise cancelling technology. 
+                        </p>
+
+                        <div class="d-flex">
+                            <a href="javascript:void(0);" class="btn am_light_theme text-muted px-5 mb-2">Virtual</a>
+                            <a href="javascript:void(0);" class="btn am_light_theme text-muted px-5 mb-2 ms-3">Hybrid</a>
+                        </div>
+
+                        <h5 class="fw-bold text-theme mb-2">03 comments</h5>
+
+                        <div class="am_blog_comment am_general_border bg-white">
+                            <a href="javascript:void(0);" class="am_comment_reply">
+                                <span><i class="fas fa-level-up-alt me-3" style="transform: rotate(-90deg);"></i></span>
+                                Reply
+                            </a>
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <div class="am_blog_user">
+                                        <img src="images/speakers/speaker-1.png" class="img-fluid am_imgfit" alt="...">
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="fw-bold am_onelinetext py-1">Jeneva Kalsin</h5>
+                                    <p class="my-1 text-theme "><span><i
+                                                class="far fa-calendar-alt me-3"></i></span>30/03/2022</p>
+                                    <p class="fw-light text-muted am_paratext2 mb-0">
+                                        Will there still be four phones? Will iPhone 14 get under-display Touch ID?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="am_blog_comment am_general_border bg-white children">
+                            <a href="javascript:void(0);" class="am_comment_reply">
+                                <span><i class="fas fa-level-up-alt me-3" style="transform: rotate(-90deg);"></i></span>
+                                Reply
+                            </a>
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <div class="am_blog_user">
+                                        <img src="images/speakers/speaker-2.png" class="img-fluid am_imgfit" alt="...">
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="fw-bold am_onelinetext py-1">Jeneva Kalsin</h5>
+                                    <p class="my-1 text-theme "><span><i
+                                                class="far fa-calendar-alt me-3"></i></span>30/03/2022</p>
+                                    <p class="fw-light text-muted am_paratext2 mb-0">
+                                        We still don't know much about the iPhone 14, but we've heard that Apple's next lineup will nix the Mini and focus on larger phones instead.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="am_blog_comment am_general_border bg-white">
+                            <a href="javascript:void(0);" class="am_comment_reply">
+                                <span><i class="fas fa-level-up-alt me-3" style="transform: rotate(-90deg);"></i></span>
+                                Reply
+                            </a>
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <div class="am_blog_user">
+                                        <img src="images/speakers/speaker-3.png" class="img-fluid am_imgfit" alt="...">
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="fw-bold am_onelinetext py-1">Jeneva Kalsin</h5>
+                                    <p class="my-1 text-theme "><span><i
+                                                class="far fa-calendar-alt me-3"></i></span>30/03/2022</p>
+                                    <p class="fw-light text-muted am_paratext2 mb-0">
+                                        Will there be a SIM card? Will Apple lower the cost in 2022?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h5 class="fw-bold mt-4">Add A Comment</h5>
+
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-3">
+                                        <input type="text" class="form-control border-0 am_general_border p-3" placeholder="Full Name *" required>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 my-3">
+                                        <input type="email" class="form-control border-0 am_general_border p-3" placeholder="Your Email *"
+                                            required>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 my-3">
+                                        <textarea rows="5" class="form-control border-0 am_general_border" placeholder="Your Comment"></textarea>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 my-3">
+                                        <input type="submit" class="btn btn-show-more p-3 px-5 am_general_border"
+                                            value="Post A Comment">
+                                    </div>
+                                </div>
+                            </form>
+
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mt-4">
+                        <div class="card am_blog_profile_card bg-white">
+                            <div class="am_blog_profile">
+                                <img src="images/speakers/speaker-1.png" class="img-fluid am_imgfit" alt="">
+                            </div>
+                            <h4 class="fw-bold am_onelinetext py-1 my-3 mb-2 text-center">Thomas Journalist</h4>
+                            <p class="fw-light text-center text-muted am_paratext2 mb-3">
+                                Speaker introduction is a procedural formality that an introducer performs before a speaker delivers a speech. Speakers just cannot come up to a stage and start speaking, but have to be introduced.
+                            </p>
+                            <div class="d-flex justify-content-center">
+                                <a href="javascript:void(0);" class="am_blog_social-icons">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="javascript:void(0);" class="am_blog_social-icons ms-3">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h5 class="fw-bold mt-2 mb-0">Latest Events</h5>
+                        <div class="d-flex my-2">
+                            <div class="flex-shrink-0">
+                                <a href="javascript:void(0);">
+                                    <div class="am_blog_latest_event">
+                                        <img src="images/blog/default-3.jpg" class="img-fluid am_imgfit" alt="...">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3 my-auto">
+                                <a href="" class="fw-bold text-dark am_paratext2">
+                                    Freelance Recruitment
+                                </a>
+                                <p class="my-2 text-muted "><span><i
+                                            class="far fa-calendar-alt me-2 text-theme"></i></span>31/3/2022</p>
+                            </div>
+                        </div>
+                        <div class="d-flex my-2">
+                            <div class="flex-shrink-0">
+                                <a href="javascript:void(0);">
+                                    <div class="am_blog_latest_event">
+                                        <img src="images/blog/mustang.jpg" class="img-fluid am_imgfit" alt="...">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3 my-auto">
+                                <a href="" class="fw-bold text-dark am_paratext2">
+                                    Unwrapping Mustang
+                                </a>
+                                <p class="my-2 text-muted "><span><i
+                                            class="far fa-calendar-alt me-2 text-theme"></i></span>31/3/2022</p>
+                            </div>
+                        </div>
+                        <div class="d-flex my-2">
+                            <div class="flex-shrink-0">
+                                <a href="javascript:void(0);">
+                                    <div class="am_blog_latest_event">
+                                        <img src="images/blog/iphone14.jpeg" class="img-fluid am_imgfit" alt="...">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3 my-auto">
+                                <a href="" class="fw-bold text-dark am_paratext2">
+                                    Latest Features of iPhone 14
+                                </a>
+                                <p class="my-2 text-muted "><span><i
+                                            class="far fa-calendar-alt me-2 text-theme"></i></span>31/3/2022</p>
+                            </div>
+                        </div>
+                        <div class="d-flex my-2">
+                            <div class="flex-shrink-0">
+                                <a href="javascript:void(0);">
+                                    <div class="am_blog_latest_event">
+                                        <img src="images/blog/shelby-event.jpg" class="img-fluid am_imgfit" alt="...">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3 my-auto">
+                                <a href="" class="fw-bold text-dark am_paratext2">
+                                    Event by Shelby
+                                </a>
+                                <p class="my-2 text-muted "><span><i
+                                            class="far fa-calendar-alt me-2 text-theme"></i></span>31/3/2022</p>
+                            </div>
+                        </div>
+                        <h5 class="fw-bold mt-3">categories</h5>
+                        <ul class="am_blog_categories">
+                            <li>
+                                <a href="javascript:void(0);" class="my-0 text-muted">Social Webinars (03)</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="my-0 text-muted">Virtual Conferences (08)</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="my-0 text-muted">Virtual University Fairs (07)</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="my-0 text-muted">Virtual Career Fairs & Job Fairs
+                                    (10)</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="my-0 text-muted">Online Trade Exhibitions (12)</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="my-0 text-muted">Workshop (12)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="footer-area bg-dark text-gray position-relative">
+
+        <!-- aside -->
+        <aside class="aside container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 ">
+                    <div class="logo"><a href="javascript:void(0);"><img src="images/logo/logo.png" alt="EventCo"></a>
+                    </div>
+                    <p>EventCo is the world’s leading all-in-one virtual event platform. Offer your participants
+                        a virtual venue that allows them to move freely across multiple sessions,
+                        networking lounge, and exhibition booths to have meaningful interactions.</p>
+                    <a href="javascript:void(0);" class="btn btn-default text-uppercase">Host an event for free</a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3  hidden-xs">
+                    <h4>Popular Events</h4>
+                    <!-- widget cources list -->
+
+                    <ul class="widget-cources-list list-unstyled">
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="alignleft">
+                                    <img src="images/events/event.png" alt="image description">
+                                </div>
+                                <div class="description-wrap">
+                                    <h6>Lorem Ipsum</h6>
+                                    <strong
+                                        class="price text-gray element-block font-lato text-uppercase text-size">$
+                                        0.00-1000.00</strong>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="alignleft">
+                                    <img src="images/events/event.png" alt="image description">
+                                </div>
+                                <div class="description-wrap">
+                                    <h6>Lorem Ipsum</h6>
+                                    <strong
+                                        class="price text-gray element-block font-lato text-uppercase text-size">Free</strong>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="col-xs-12 col-sm-12 col-md-3 ">
+                    <h4>Quick Links</h4>
+                    <!-- fooer navigation -->
+                    <ul class="fooer-navigation list-unstyled">
+                        <li><a href="search-event.html">Events</a></li>
+                        <li><a href="marketplace.html">Marketplace</a></li>
+                        <li><a href="services.html">Services</a></li>
+
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html">Terms of Use</a>
+                        </li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="error-404.html">404 Page</a></li>
+                        <li><a href="maintenance-503.html">503 Page</a></li>
+                    </ul>
+                </nav>
+                <div class="col-xs-12 col-sm-12 col-md-3 ">
+                    <h4>contact us</h4>
+                    <p>If you want to contact us about any issue our support available to help you 9am-6pm Monday to
+                        Friday.</p>
+                    <!-- ft address -->
+                    <address class="ft-address">
+                        <dl>
+                            <dt><span class="fas fa-map-marker"><span class="sr-only">marker</span></span></dt>
+                            <dd>Address: Office 2, 2nd Floor, Al-Madina Arcade, Bahria Town Phase 7, Rawalpindi</dd>
+                            <dt><span class="fas fa-phone-square"><span class="sr-only">phone</span></span></dt>
+                            <dd>Call: <a href="tel:+92518897268">+(92) 51 889 7268</a></dd>
+                            <dt><i class="fas fa-envelope-open"></i><span class="sr-only">email</span></dt>
+                            <dd>Email: <a href="mailto:info@example.com">info@example.com</a></dd>
+                        </dl>
+                    </address>
+                </div>
+            </div>
+        </aside>
+        <!-- page footer -->
+        <footer id="page-footer" class="font-lato">
+            <div class="container">
+                <div class="row holder">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-center">
+                            <ul class="socail-networks list-unstyled">
+                                <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+                            </ul>
+                            <p class="my-auto ms-3 am_marg_top"><a href="javascript:void(0);">EventCo</a> | &copy; 2022
+                                <a href="#"></a>, All rights
+                                reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- DEBUG-VIEW ENDED 16 APPPATH\Views\frontend\template\footer.php -->
+    <!-- back top of the page -->
+    <span id="back-top" class="text-center"><i class="fas fa-angle-up"></i></span>
+    <!-- loader of the page -->
+    <div id="loader" class="loader-holder">
+        <div class="block"><img src="images/svg/hearts.svg" width="100" alt="loader"></div>
+    </div>
+
+    <!-- include jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- include jQuery -->
+    <script src="js/plugins.js"></script>
+    <!-- include jQuery -->
+    <script src="js/jquery.main.js"></script>
+    <!-- include jQuery -->
+    <script src="js/init.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/iconify.min.js"></script>
+    <script src="js/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
+
+    <!-- include calendar -->
+    <script src="js/popper.js"></script>
+    <script src="js/moment-with-locales.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+
+
+    <script>
+        $('#custom-select').select2();
+    </script>
+
+    <script src="js/sweetalert2.min.js"></script>
+
+    <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.33.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+</body>
+
+</html>
